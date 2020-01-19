@@ -208,23 +208,6 @@ GenerateClassCluster=0
 DocumentUniqueId=
 
 [Document11]
-DocumentPath=..\OVLib\Altium\PcbLib\SMD\IC\SOIC\SOIC127P1420X360_HS-21M.PcbLib
-AnnotationEnabled=1
-AnnotateStartValue=1
-AnnotationIndexControlEnabled=0
-AnnotateSuffix=
-AnnotateScope=All
-AnnotateOrder=-1
-DoLibraryUpdate=1
-DoDatabaseUpdate=1
-ClassGenCCAutoEnabled=1
-ClassGenCCAutoRoomEnabled=1
-ClassGenNCAutoScope=None
-DItemRevisionGUID=
-GenerateClassCluster=0
-DocumentUniqueId=JGYUKFEF
-
-[Document12]
 DocumentPath=motor_drive.Harness
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -394,7 +377,7 @@ OutputDefault20=0
 [OutputGroup2]
 Name=Simulator Outputs
 Description=
-TargetPrinter=Microsoft Print to PDF
+TargetPrinter=HP Officejet 4620 series (Network)
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
 
 [OutputGroup3]
@@ -865,16 +848,11 @@ OutputName5=Environment configuration compliance check
 OutputDocumentPath5=
 OutputVariantName5=
 OutputDefault5=0
-OutputType6=BOM_Violations
-OutputName6=BOM Checks Report
+OutputType6=Component states check
+OutputName6=Server's components states check
 OutputDocumentPath6=
 OutputVariantName6=
 OutputDefault6=0
-OutputType7=Component states check
-OutputName7=Server's components states check
-OutputDocumentPath7=
-OutputVariantName7=
-OutputDefault7=0
 
 [OutputGroup9]
 Name=Export Outputs
@@ -1050,12 +1028,6 @@ Type108=1
 Type109=1
 Type110=1
 Type111=1
-Type112=1
-Type113=1
-Type114=1
-Type115=1
-Type116=1
-Type117=1
 
 [Difference Levels]
 Type1=1
@@ -1120,10 +1092,6 @@ Type59=1
 Type60=1
 Type61=1
 Type62=1
-Type63=1
-Type64=1
-Type65=1
-Type66=1
 
 [Electrical Rules Check]
 Type1=1
@@ -1247,7 +1215,6 @@ Type118=3
 Type119=3
 MultiChannelAlternate=2
 AlternateItemFail=3
-Type122=2
 
 [ERC Connection Matrix]
 L1=NNNNNNNNNNNWNNNWW
