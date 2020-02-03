@@ -1,4 +1,4 @@
-[OutputJobFile]
+﻿[OutputJobFile]
 Version=1.0
 Caption=
 Description=
@@ -15,13 +15,13 @@ LifeCycleDefinitionGUID=
 RevisionNamingSchemeGUID=
 
 [OutputGroup1]
-Name=TK104.OutJob
+Name=robot_control_pcb_TK.OutJob
 Description=
-TargetOutputMedium=Generate manufacturing data
+TargetOutputMedium=New Folder Structure
 VariantName=[No Variations]
 VariantScope=1
 CurrentConfigurationName=
-TargetPrinter=Microsoft Print to PDF
+TargetPrinter=Foxit Reader PDF Printer
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
 OutputMedium1=Generate manufacturing data
 OutputMedium1_Type=GeneratedFiles
@@ -29,6 +29,8 @@ OutputMedium2=Generate design documentation PDF
 OutputMedium2_Type=Publish
 OutputMedium3=BOM
 OutputMedium3_Type=GeneratedFiles
+OutputMedium4=New Folder Structure
+OutputMedium4_Type=GeneratedFiles
 OutputType1=Schematic Print
 OutputName1=Schematic Print
 OutputCategory1=Documentation
@@ -38,6 +40,7 @@ OutputEnabled1=0
 OutputEnabled1_OutputMedium1=0
 OutputEnabled1_OutputMedium2=1
 OutputEnabled1_OutputMedium3=0
+OutputEnabled1_OutputMedium4=0
 OutputDefault1=0
 PageOptions1=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=0.73|XCorrection=1.00|YCorrection=1.00|PrintKind=0|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-4|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A3|PaperIndex=9
 Configuration1_Name1=OutputConfigurationParameter1
@@ -47,10 +50,11 @@ OutputName2=Bill of Materials
 OutputCategory2=Report
 OutputDocumentPath2=
 OutputVariantName2=
-OutputEnabled2=1
+OutputEnabled2=0
 OutputEnabled2_OutputMedium1=1
 OutputEnabled2_OutputMedium2=6
 OutputEnabled2_OutputMedium3=1
+OutputEnabled2_OutputMedium4=0
 OutputDefault2=0
 PageOptions2=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=0|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=1|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-4|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
 Configuration2_Name1=ColumnNameFormat
@@ -70,10 +74,11 @@ OutputName3=Gerber Files
 OutputCategory3=Fabrication
 OutputDocumentPath3=
 OutputVariantName3=Arduino Zero Full
-OutputEnabled3=1
+OutputEnabled3=0
 OutputEnabled3_OutputMedium1=2
 OutputEnabled3_OutputMedium2=0
 OutputEnabled3_OutputMedium3=0
+OutputEnabled3_OutputMedium4=0
 OutputDefault3=0
 Configuration3_Name1=OutputConfigurationParameter1
 Configuration3_Item1=AddToAllLayerClasses.Set= |AddToAllPlots.Set=SerializeLayerHash.Version~2,ClassName~TLayerToBoolean|CentrePlots=False|DrillDrawingSymbol=GraphicsSymbol|DrillDrawingSymbolSize=200000|EmbeddedApertures=True|FilmBorderSize=10000000|FilmXSize=200000000|FilmYSize=160000000|FlashAllFills=False|FlashPadShapes=True|G54OnApertureChange=False|GenerateDRCRulesFile=True|GenerateDRCRulesFile=True|GenerateReliefShapes=True|GerberUnit=Metric|GerberUnit=Metric|IncludeUnconnectedMidLayerPads=False|LayerClassesMirror.Set= |LayerClassesPlot.Set= |LeadingAndTrailingZeroesMode=SuppressLeadingZeroes|MaxApertureSize=2500000|MinusApertureTolerance=39|MinusApertureTolerance=39|Mirror.Set=SerializeLayerHash.Version~2,ClassName~TLayerToBoolean|MirrorDrillDrawingPlots=False|MirrorDrillGuidePlots=False|NoRegularPolygons=True|NumberOfDecimals=3|NumberOfDecimals=3|OptimizeChangeLocationCommands=True|OptimizeChangeLocationCommands=True|OriginPosition=Relative|Panelize=False|Plot.Set=SerializeLayerHash.Version~2,ClassName~TLayerToBoolean,16973830~1,16973832~1,16973834~1,16777217~1,16842751~1,16973835~1,16973833~1,16973831~1,16908289~1,16973837~1|PlotPositivePlaneLayers=False|PlotUsedDrillDrawingLayerPairs=False|PlotUsedDrillGuideLayerPairs=False|PlusApertureTolerance=39|PlusApertureTolerance=39|Record=GerberView|SoftwareArcs=False|Sorted=False|Sorted=False
@@ -82,10 +87,11 @@ OutputName4=NC Drill Files
 OutputCategory4=Fabrication
 OutputDocumentPath4=
 OutputVariantName4=
-OutputEnabled4=1
+OutputEnabled4=0
 OutputEnabled4_OutputMedium1=3
 OutputEnabled4_OutputMedium2=0
 OutputEnabled4_OutputMedium3=0
+OutputEnabled4_OutputMedium4=0
 OutputDefault4=0
 Configuration4_Name1=OutputConfigurationParameter1
 Configuration4_Item1=BoardEdgeRoutToolDia=2000000|GenerateBoardEdgeRout=False|GenerateDrilledSlotsG85=False|GenerateEIADrillFile=True|GenerateSeparatePlatedNonPlatedFiles=False|NumberOfDecimals=3|NumberOfUnits=4|OptimizeChangeLocationCommands=True|OriginPosition=Relative|Record=DrillView|Units=Metric|ZeroesMode=SuppressLeadingZeroes
@@ -98,6 +104,7 @@ OutputEnabled5=0
 OutputEnabled5_OutputMedium1=0
 OutputEnabled5_OutputMedium2=2
 OutputEnabled5_OutputMedium3=0
+OutputEnabled5_OutputMedium4=0
 OutputDefault5=0
 PageOptions5=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=2.66|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-4|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
 Configuration5_Name1=OutputConfigurationParameter1
@@ -126,10 +133,11 @@ OutputName6=Generates pick and place files
 OutputCategory6=Assembly
 OutputDocumentPath6=
 OutputVariantName6=Arduino Zero Full
-OutputEnabled6=1
+OutputEnabled6=0
 OutputEnabled6_OutputMedium1=4
 OutputEnabled6_OutputMedium2=0
 OutputEnabled6_OutputMedium3=0
+OutputEnabled6_OutputMedium4=0
 OutputDefault6=0
 Configuration6_Name1=OutputConfigurationParameter1
 Configuration6_Item1=Record=PickPlaceView|Units=Metric|GenerateCSVFormat=False|GenerateTextFormat=True
@@ -142,6 +150,7 @@ OutputEnabled7=0
 OutputEnabled7_OutputMedium1=0
 OutputEnabled7_OutputMedium2=3
 OutputEnabled7_OutputMedium3=0
+OutputEnabled7_OutputMedium4=0
 OutputDefault7=0
 PageOptions7=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=2.70|XCorrection=1.00|YCorrection=1.00|PrintKind=0|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-4|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
 Configuration7_Name1=OutputConfigurationParameter1
@@ -151,10 +160,11 @@ OutputName8=Test Point Report
 OutputCategory8=Fabrication
 OutputDocumentPath8=
 OutputVariantName8=
-OutputEnabled8=1
+OutputEnabled8=0
 OutputEnabled8_OutputMedium1=5
 OutputEnabled8_OutputMedium2=0
 OutputEnabled8_OutputMedium3=0
+OutputEnabled8_OutputMedium4=0
 OutputDefault8=0
 Configuration8_Name1=OutputConfigurationParameter1
 Configuration8_Item1=AdjacencyDistance=250000|GenerateCSVFormat=True|GenerateIPCFormat=False|GenerateSpreadSheetFormat=True|GenerateTextFormat=True|OriginPosition=Relative|OutlineLayer=56|OutputAdjancencies=False|OutputBoardOutline=False|OutputTraces=False|Record=TestPointView|ReportBottomLayerTestpoints=True|ReportTopLayerTestpoints=False|Units=Metric
@@ -167,6 +177,7 @@ OutputEnabled9=0
 OutputEnabled9_OutputMedium1=0
 OutputEnabled9_OutputMedium2=0
 OutputEnabled9_OutputMedium3=0
+OutputEnabled9_OutputMedium4=0
 OutputDefault9=0
 PageOptions9=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-4|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
 Configuration9_Name1=OutputConfigurationParameter1
@@ -197,6 +208,7 @@ OutputEnabled10=0
 OutputEnabled10_OutputMedium1=0
 OutputEnabled10_OutputMedium2=4
 OutputEnabled10_OutputMedium3=0
+OutputEnabled10_OutputMedium4=0
 OutputDefault10=0
 PageOptions10=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=2.70|XCorrection=1.00|YCorrection=1.00|PrintKind=0|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-4|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
 Configuration10_Name1=OutputConfigurationParameter1
@@ -206,10 +218,11 @@ OutputName11=Assembly Test Point Report
 OutputCategory11=Assembly
 OutputDocumentPath11=
 OutputVariantName11=Arduino Zero Full
-OutputEnabled11=1
+OutputEnabled11=0
 OutputEnabled11_OutputMedium1=6
 OutputEnabled11_OutputMedium2=0
 OutputEnabled11_OutputMedium3=0
+OutputEnabled11_OutputMedium4=0
 OutputDefault11=0
 Configuration11_Name1=OutputConfigurationParameter1
 Configuration11_Item1=AssyAdjacencyDistance=250000|AssyGenerateCSVFormat=True|AssyGenerateIPCFormat=False|AssyGenerateSpreadSheetFormat=False|AssyGenerateTextFormat=True|AssyOriginPosition=Relative|AssyOutlineLayer=56|AssyOutputAdjancencies=False|AssyOutputBoardOutline=False|AssyOutputTraces=False|AssyReportBottomLayerTestpoints=True|AssyReportTopLayerTestpoints=True|AssyUnits=Metric|Record=TestPointView
@@ -218,10 +231,11 @@ OutputName12=ODB++ Files
 OutputCategory12=Fabrication
 OutputDocumentPath12=
 OutputVariantName12=Arduino Zero Full
-OutputEnabled12=1
+OutputEnabled12=0
 OutputEnabled12_OutputMedium1=7
 OutputEnabled12_OutputMedium2=0
 OutputEnabled12_OutputMedium3=0
+OutputEnabled12_OutputMedium4=0
 OutputDefault12=0
 Configuration12_Name1=OutputConfigurationParameter1
 Configuration12_Item1=AddToAllPlots_Mechanical 1=True|AddToAllPlots_Mechanical 10=False|AddToAllPlots_Mechanical 11=False|AddToAllPlots_Mechanical 12=False|AddToAllPlots_Mechanical 13=False|AddToAllPlots_Mechanical 14=False|AddToAllPlots_Mechanical 15=False|AddToAllPlots_Mechanical 16=False|AddToAllPlots_Mechanical 2=False|AddToAllPlots_Mechanical 3=False|AddToAllPlots_Mechanical 4=False|AddToAllPlots_Mechanical 5=False|AddToAllPlots_Mechanical 6=False|AddToAllPlots_Mechanical 7=False|AddToAllPlots_Mechanical 8=False|AddToAllPlots_Mechanical 9=False|ExportPositivePlaneLayers=False|GenerateDRCRulesFile=False|IncludeUnconnectedMidLayerPads=False|ObjsInsideBoardOutlineOnly=False|ODBProfileLayer=57|PlotBottomLayerPlot=True|PlotBottomOverlayPlot=True|PlotBottomPastePlot=True|PlotBottomSolderPlot=True|PlotInternalPlane10Plot=False|PlotInternalPlane11Plot=False|PlotInternalPlane12Plot=False|PlotInternalPlane13Plot=False|PlotInternalPlane14Plot=False|PlotInternalPlane15Plot=False|PlotInternalPlane16Plot=False|PlotInternalPlane1Plot=True|PlotInternalPlane2Plot=True|PlotInternalPlane3Plot=False|PlotInternalPlane4Plot=False|PlotInternalPlane5Plot=False|PlotInternalPlane6Plot=False|PlotInternalPlane7Plot=False|PlotInternalPlane8Plot=False|PlotInternalPlane9Plot=False|PlotKeepOutLayerPlot=True|PlotMechanical10Plot=False|PlotMechanical11Plot=False|PlotMechanical12Plot=False|PlotMechanical13Plot=True|PlotMechanical14Plot=False|PlotMechanical15Plot=True|PlotMechanical16Plot=False|PlotMechanical1Plot=True|PlotMechanical2Plot=True|PlotMechanical3Plot=True|PlotMechanical4Plot=False|PlotMechanical5Plot=False|PlotMechanical6Plot=False|PlotMechanical7Plot=False|PlotMechanical8Plot=False|PlotMechanical9Plot=False|PlotMidLayer10Plot=False|PlotMidLayer11Plot=False|PlotMidLayer12Plot=False|PlotMidLayer13Plot=False|PlotMidLayer14Plot=False|PlotMidLayer15Plot=False|PlotMidLayer16Plot=False|PlotMidLayer17Plot=False|PlotMidLayer18Plot=False|PlotMidLayer19Plot=False|PlotMidLayer1Plot=False|PlotMidLayer20Plot=False|PlotMidLayer21Plot=False|PlotMidLayer22Plot=False|PlotMidLayer23Plot=False|PlotMidLayer24Plot=False|PlotMidLayer25Plot=False|PlotMidLayer26Plot=False|PlotMidLayer27Plot=False|PlotMidLayer28Plot=False|PlotMidLayer29Plot=False|PlotMidLayer2Plot=False|PlotMidLayer30Plot=False|PlotMidLayer3Plot=False|PlotMidLayer4Plot=False|PlotMidLayer5Plot=False|PlotMidLayer6Plot=False|PlotMidLayer7Plot=False|PlotMidLayer8Plot=False|PlotMidLayer9Plot=False|PlotTopLayerPlot=True|PlotTopOverlayPlot=True|PlotTopPastePlot=True|PlotTopSolderPlot=True|Record=ODBView
@@ -234,6 +248,7 @@ OutputEnabled13=0
 OutputEnabled13_OutputMedium1=0
 OutputEnabled13_OutputMedium2=5
 OutputEnabled13_OutputMedium3=0
+OutputEnabled13_OutputMedium4=0
 OutputDefault13=0
 PageOptions13=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=2.66|XCorrection=1.00|YCorrection=1.00|PrintKind=0|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-4|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
 Configuration13_Name1=OutputConfigurationParameter1
@@ -264,12 +279,13 @@ OutputEnabled14=1
 OutputEnabled14_OutputMedium1=8
 OutputEnabled14_OutputMedium2=0
 OutputEnabled14_OutputMedium3=0
+OutputEnabled14_OutputMedium4=1
 OutputDefault14=0
 Configuration14_Name1=OutputConfigurationParameter1
 Configuration14_Item1=Record=ExportSTEPView|ExportComponentOptions=0|ExportModelsOption=2|ExportHolesOption=0|CanSelectPrimitives=False|IncludeMechanicalPadHoles=False|IncludeElectricalPadHoles=False|IncludeFreePadHoles=False|ComponentSuffixType=0|ComponentSuffix=
 
 [PublishSettings]
-OutputFilePath1=C:\git\tesla-driver\05_Hardware\TK100_Tonegenerator\TK104_Pulsbegrenser_Eurorack\Project Outputs\
+OutputFilePath1=C:\git\robot_control_pcb\Project Outputs\
 ReleaseManaged1=0
 OutputBasePath1=Project Outputs\
 OutputPathMedia1=
@@ -311,7 +327,7 @@ PDFACompliance2=Disabled
 PDFVersion2=Default
 OutputFilePath3=C:\TEMP\Tesla-Driver\05_Hardware\TK100_Tonegenerator\TK101_Tonegenerator_Hovedkort\Project Outputs for TK101_Tonegenerator_Hovedkort\
 ReleaseManaged3=1
-OutputBasePath3=Project Outputs for TK104_Pulsbegrenser_Eurorack
+OutputBasePath3=..\temp
 OutputPathMedia3=
 OutputPathMediaValue3=
 OutputPathOutputer3=[Output Type]
@@ -322,9 +338,22 @@ OutputFileNameMulti3=
 UseOutputNameForMulti3=1
 OutputFileNameSpecial3=
 OpenOutput3=1
+OutputFilePath4=C:\git\robot_control_pcb\Project Outputs\
+ReleaseManaged4=0
+OutputBasePath4=Project Outputs\
+OutputPathMedia4=
+OutputPathMediaValue4=
+OutputPathOutputer4=[Output Type]
+OutputPathOutputerPrefix4=
+OutputPathOutputerValue4=
+OutputFileName4=
+OutputFileNameMulti4=
+UseOutputNameForMulti4=1
+OutputFileNameSpecial4=
+OpenOutput4=1
 
 [GeneratedFilesSettings]
-RelativeOutputPath1=C:\git\tesla-driver\05_Hardware\TK100_Tonegenerator\TK104_Pulsbegrenser_Eurorack\Project Outputs\
+RelativeOutputPath1=C:\git\robot_control_pcb\Project Outputs\
 OpenOutputs1=0
 AddToProject1=1
 TimestampFolder1=0
@@ -346,4 +375,14 @@ OpenGerberOutput3=0
 OpenNCDrillOutput3=0
 OpenIPCOutput3=0
 EnableReload3=0
+RelativeOutputPath4=C:\git\robot_control_pcb\Project Outputs\
+OpenOutputs4=1
+AddToProject4=1
+TimestampFolder4=0
+UseOutputName4=0
+OpenODBOutput4=0
+OpenGerberOutput4=0
+OpenNCDrillOutput4=0
+OpenIPCOutput4=0
+EnableReload4=0
 
