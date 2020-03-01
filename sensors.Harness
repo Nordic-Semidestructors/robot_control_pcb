@@ -1,1 +1,2 @@
+Encoders=Right_A,Right_B,Left_A,Left_B
 SENSOR=SDA/SDI,SCL/SCLK,C\S\,INT,AD0/SDO
